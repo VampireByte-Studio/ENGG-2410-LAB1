@@ -1,0 +1,7 @@
+NET "HL" LOC = "C4"; #BT1
+NET "HR" LOC = "D9"; #BT2
+NET "G" LOC = "T5"; #SW0
+
+NET "RUN" LOC = "U16"; #LED0
+NET "FAULT" LOC = "V16";#LED1
+

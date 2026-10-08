@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/ISE/Lab1_Interlock_Group64/Interlock_Interlock_sch_tb_isim_beh.exe" -prj "/home/ise/ISE/Lab1_Interlock_Group64/Interlock_Interlock_sch_tb_beh.prj" "work.Interlock_Interlock_sch_tb" 

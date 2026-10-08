@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/home/ise/ISE/Lab1_Interlock_Group64/Interlock.xst" -ofn "/home/ise/ISE/Lab1_Interlock_Group64/Interlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Interlock_Constraints.ucf -p xc6slx16-csg324-3 Interlock.ngc Interlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interlock_map.ncd Interlock.ngd Interlock.pcf 
+par -w -intstyle ise -ol high -mt off Interlock_map.ncd Interlock.ncd Interlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interlock.twx Interlock.ncd -o Interlock.twr Interlock.pcf -ucf Interlock_Constraints.ucf 
+bitgen -intstyle ise -f Interlock.ut Interlock.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Interlock_Constraints.ucf -p xc6slx16-csg324-3 Interlock.ngc Interlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interlock_map.ncd Interlock.ngd Interlock.pcf 
+par -w -intstyle ise -ol high -mt off Interlock_map.ncd Interlock.ncd Interlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interlock.twx Interlock.ncd -o Interlock.twr Interlock.pcf -ucf Interlock_Constraints.ucf 
+bitgen -intstyle ise -f Interlock.ut Interlock.ncd 

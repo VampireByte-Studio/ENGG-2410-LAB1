@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Oct 02 13:52:31 2026
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "HL" LOCATE = SITE "C4" LEVEL 1;
+COMP "HR" LOCATE = SITE "D9" LEVEL 1;
+COMP "Run" LOCATE = SITE "U16" LEVEL 1;
+COMP "Fault" LOCATE = SITE "V16" LEVEL 1;
+COMP "G" LOCATE = SITE "T5" LEVEL 1;
+SCHEMATIC END;
+
