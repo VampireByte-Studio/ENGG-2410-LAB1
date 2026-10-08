@@ -2,7 +2,7 @@
 
 Project: lab1_interlock
 Top-level schematic: interlock.sch
-Constraints file: interlock.ucf
+Constraints file: Interlock_Constraints.ucf
 
 ## Switch and LED assignment
 
